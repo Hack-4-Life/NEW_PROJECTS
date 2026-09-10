@@ -1000,7 +1000,7 @@ function buildAlerts(sts, pace) {
   if (DB.tx.length > 25 && stale && !DB.settings.dismiss.backupNudge) {
     out.push('<div class="alert info"><span class="em">\uD83D\uDCBE</span><span>It has been ' +
       (last ? diffDays(parseYMD(last), t) + ' days' : 'a while') + ' since your last backup. Ten seconds now saves your whole budget later.</span>' +
-      '<span style="margin-left:auto" class="row" style="gap:6px">' +
+      '<span class="row" style="margin-left:auto;gap:6px">' +
       '<button class="btn xs" data-act="exportJson">Download backup</button>' +
       '<button class="btn xs ghost" data-act="dismissBackup" title="Do not remind me again">&times;</button></span></div>');
   }
