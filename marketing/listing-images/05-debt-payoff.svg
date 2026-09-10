@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="2000" viewBox="0 0 2000 2000">
+  <defs>
+    <radialGradient id="g5" cx="12%" cy="-6%" r="78%">
+      <stop offset="0%" stop-color="#f5c451" stop-opacity="0.17"/><stop offset="60%" stop-color="#f5c451" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="h5" cx="104%" cy="8%" r="70%">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.13"/><stop offset="60%" stop-color="#7dd3fc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="c5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#182231"/><stop offset="100%" stop-color="#0f1720"/>
+    </linearGradient>
+    <linearGradient id="f5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.30"/><stop offset="100%" stop-color="#7dd3fc" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="2000" height="2000" fill="#080c11"/>
+  <rect width="2000" height="2000" fill="url(#g5)"/>
+  <rect width="2000" height="2000" fill="url(#h5)"/>
+  <g>
+    <rect x="110" y="92" width="76" height="76" rx="24" fill="#f5c451"/>
+    <circle cx="148" cy="130" r="19" fill="none" stroke="#1a1305" stroke-width="6"/>
+    <path d="M148 111 v-8 M148 149 v8 M129 130 h-8 M167 130 h8" stroke="#1a1305" stroke-width="6" stroke-linecap="round"/>
+    <text x="210" y="142" font-family="Inter" font-size="40" font-weight="800" fill="#e9f0f8">Waypoint</text>
+    <text x="446" y="142" font-family="Inter" font-size="40" font-weight="400" fill="#647689">· Budget Studio</text>
+  </g>
+  <text x="112" y="258" font-family="Inter" font-size="27" font-weight="700" fill="#f5c451" letter-spacing="4">DEBT PAYOFF PLANNER</text>
+  <text x="110" y="348" font-family="Inter" font-size="76" font-weight="800" fill="#e9f0f8">Your debt-free date,</text><text x="110" y="436" font-family="Inter" font-size="76" font-weight="800" fill="#e9f0f8">down to the month.</text>
+  
+  <rect x="110" y="560" width="1780" height="1080" rx="36" fill="url(#c5)"/><rect x="110" y="560" width="1780" height="1080" rx="36" fill="none" stroke="rgba(248,113,113,0.20)" stroke-width="3" opacity="0.5"/>
+  
+  <text x="190" y="655" font-family="Inter" font-size="30" font-weight="700" fill="#647689" letter-spacing="5">TOTAL DEBT</text>
+  <text x="186" y="785" font-family="Inter" font-size="108" font-weight="800" fill="#e9f0f8">$24,560.00</text>
+  <text x="190" y="845" font-family="Inter" font-size="30" font-weight="500" fill="#93a6ba">4 accounts · $583 a month in minimums · 8.6% average rate</text>
+  <text x="190" y="920" font-family="Inter" font-size="28" font-weight="700" fill="#647689" letter-spacing="3">CHANGE THE PLAN, WATCH THE DATE MOVE</text>
+  <rect x="190" y="960" width="940" height="148" rx="26" fill="rgba(255,255,255,0.035)"/><text x="226" y="1016" font-family="Inter" font-size="32" font-weight="700" fill="#e9f0f8">Minimums only</text><text x="226" y="1066" font-family="Inter" font-size="27" font-weight="500" fill="#647689">debt-free Dec 10, 2030</text><text x="1096" y="1016" font-family="Inter" font-size="38" font-weight="800" fill="#93a6ba" text-anchor="end">51 months</text><text x="1096" y="1066" font-family="Inter" font-size="27" font-weight="500" fill="#647689" text-anchor="end">$4,694 interest</text><rect x="190" y="1128" width="940" height="148" rx="26" fill="rgba(255,255,255,0.035)"/><text x="226" y="1184" font-family="Inter" font-size="32" font-weight="700" fill="#e9f0f8">Extra +$150 a month</text><text x="226" y="1234" font-family="Inter" font-size="27" font-weight="500" fill="#647689">debt-free Nov 10, 2029</text><text x="1096" y="1184" font-family="Inter" font-size="38" font-weight="800" fill="#fbbf24" text-anchor="end">38 months</text><text x="1096" y="1234" font-family="Inter" font-size="27" font-weight="500" fill="#647689" text-anchor="end">$2,863 interest</text><rect x="190" y="1296" width="940" height="148" rx="26" fill="rgba(74,222,128,0.08)" stroke="rgba(74,222,128,0.4)" stroke-width="2"/><text x="226" y="1352" font-family="Inter" font-size="32" font-weight="700" fill="#e9f0f8">Extra +$300 a month</text><text x="226" y="1402" font-family="Inter" font-size="27" font-weight="500" fill="#647689">debt-free Apr 10, 2029</text><text x="1096" y="1352" font-family="Inter" font-size="38" font-weight="800" fill="#4ade80" text-anchor="end">31 months</text><text x="1096" y="1402" font-family="Inter" font-size="27" font-weight="500" fill="#647689" text-anchor="end">$2,216 interest</text>
+  <circle cx="1480" cy="830" r="142" fill="none" stroke="rgba(255,255,255,0.09)" stroke-width="52"/><path d="M1483.7 662.0 A168 168 0 0 1 1599.5 712.0 L1562.5 748.5 A116 116 0 0 0 1482.5 714.0 Z" fill="#f5c451"/><path d="M1604.6 717.3 A168 168 0 0 1 1386.9 969.9 L1415.7 926.6 A116 116 0 0 0 1566.0 752.2 Z" fill="#7dd3fc"/><path d="M1380.9 965.7 A168 168 0 0 1 1449.0 664.9 L1458.6 716.0 A116 116 0 0 0 1411.6 923.7 Z" fill="#f472b6"/><path d="M1456.2 663.7 A168 168 0 0 1 1476.3 662.0 L1477.5 714.0 A116 116 0 0 0 1463.6 715.2 Z" fill="#a78bfa"/>
+  <text x="1480" y="838" font-family="Inter" font-size="40" font-weight="800" fill="#e9f0f8" text-anchor="middle">$24,560</text>
+  <text x="1480" y="872" font-family="Inter" font-size="26" font-weight="500" fill="#647689" text-anchor="middle">owed</text>
+  <circle cx="1218" cy="1140" r="13" fill="#f5c451"/><text x="1256" y="1150" font-family="Inter" font-size="28" font-weight="500" fill="#93a6ba">Rewards Card</text><text x="1790" y="1150" font-family="Inter" font-size="28" font-weight="700" fill="#e9f0f8" text-anchor="end">$3,180</text><circle cx="1218" cy="1198" r="13" fill="#7dd3fc"/><text x="1256" y="1208" font-family="Inter" font-size="28" font-weight="500" fill="#93a6ba">Student Loan</text><text x="1790" y="1208" font-family="Inter" font-size="28" font-weight="700" fill="#e9f0f8" text-anchor="end">$11,480</text><circle cx="1218" cy="1256" r="13" fill="#f472b6"/><text x="1256" y="1266" font-family="Inter" font-size="28" font-weight="500" fill="#93a6ba">Car Loan</text><text x="1790" y="1266" font-family="Inter" font-size="28" font-weight="700" fill="#e9f0f8" text-anchor="end">$9,260</text><circle cx="1218" cy="1314" r="13" fill="#a78bfa"/><text x="1256" y="1324" font-family="Inter" font-size="28" font-weight="500" fill="#93a6ba">Store Card</text><text x="1790" y="1324" font-family="Inter" font-size="28" font-weight="700" fill="#e9f0f8" text-anchor="end">$640</text>
+  <rect x="1160" y="1420" width="630" height="180" rx="26" fill="rgba(74,222,128,0.07)" stroke="rgba(74,222,128,0.32)" stroke-width="2"/>
+  <text x="1198" y="1482" font-family="Inter" font-size="26" font-weight="600" fill="#647689">Interest avoided</text>
+  <text x="1198" y="1548" font-family="Inter" font-size="50" font-weight="800" fill="#4ade80">$2,477</text>
+  <text x="1198" y="1586" font-family="Inter" font-size="25" font-weight="500" fill="#647689">20 months sooner than minimums</text>
+  <path d="M190 1790 l13 15 l24 -30" fill="none" stroke="#4ade80" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><text x="242" y="1788" font-family="Inter" font-size="30" font-weight="500" fill="#93a6ba">Snowball, avalanche or the order you actually want</text><path d="M190 1854 l13 15 l24 -30" fill="none" stroke="#4ade80" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><text x="242" y="1852" font-family="Inter" font-size="30" font-weight="500" fill="#93a6ba">See the interest you avoid, not just the balance you owe</text>
+</svg>

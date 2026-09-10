@@ -1,0 +1,54 @@
+WAYPOINT BUDGET STUDIO v1.0
+Interactive budget dashboard · offline · no subscription · no account
+===========================================================================
+
+THANK YOU. Here is how to be up and running in about a minute.
+
+1.  Put this whole folder somewhere you will find it again.
+    A folder called "Budget" on your Desktop, or inside Documents, is perfect.
+    (Mac: drag it to Applications or Documents. Windows: Documents.)
+
+2.  Double-click  →  Waypoint-Budget-Studio.html
+    It opens in whatever browser you already use: Chrome, Edge, Safari, Firefox,
+    Arc, Brave — all of them work. Nothing installs. Nothing asks for a login.
+
+3.  Follow the 3-step welcome. Choose "Load the sample budget" if you want to
+    poke around a fully populated dashboard first — you can wipe it later from
+    Settings → Your data → Erase everything.
+
+4.  Open the Getting-Started-Guide.html next to it for the full tour: envelopes,
+   the payday countdown, the 45-day cash forecast and the debt payoff planner.
+
+WHERE YOUR DATA LIVES
+---------------------
+Everything you type is stored inside your own browser, on your own device.
+There is no account, no sync, no server, no analytics and no internet
+connection required — you can put your laptop in aeroplane mode and it still
+works perfectly.
+
+The trade-off is that a browser's storage belongs to one browser on one
+computer. So:
+
+  •  Keep these files in the same place. Opening the same file in the same
+     browser keeps all of your data.
+  •  Moving to a new computer, a new browser, or clearing your browsing data?
+     Go to Settings → Your data → "Download backup (.json)" first, then
+     "Restore from backup" on the other side. Ten seconds, everything moves.
+
+MAKE IT YOURS (all optional, all in Settings)
+---------------------------------------------
+  •  Five themes — Midnight, Vault, Blush, Daylight, Paper.
+  •  Any currency and number format.
+  •  Weekly, fortnightly, twice-monthly or monthly pay.
+  •  Safety buffer size, and what counts as cash you can spend.
+  •  Privacy goggles: blurs every amount for when you are on a train.
+
+QUESTIONS, TROUBLE, IDEAS
+-------------------------
+Message me through Etsy — I answer quickly, and updates are free forever.
+
+If a file ever looks wrong, delete nothing: take a copy of the folder first,
+then message me. Your data is almost always recoverable from the backup file
+or from the browser's own copy.
+
+Waypoint is a personal budgeting tool, not financial advice.
