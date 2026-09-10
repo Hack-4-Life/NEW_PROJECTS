@@ -1243,7 +1243,7 @@ function showWizard(){
   const steps=["👋 Welcome","💵 Payday","🎨 Theme"];
   let body="";
   if(wz.step===0)body=`<h1>Meet TrueSpend ◈</h1><div class="wsub">Your entire budget — safe-to-spend, bills, debts & goals — in one private file. 60-second setup.</div>
-    <label class="lbl">What should we call you?</label><input id="wName" value="${esc(wz.name)}" placeholder="e.g. Alex" oninput="wz.name=this.value">
+    <label class="lbl">Who should we call you?</label><input id="wName" value="${esc(wz.name)}" placeholder="e.g. Alex" oninput="wz.name=this.value">
     <label class="lbl">Currency</label><select onchange="wz.currency=this.value">${Object.keys(CURS).map(k=>`<option ${wz.currency===k?"selected":""} value="${k}">${k} (${CURS[k].s})</option>`).join("")}</select>
     <div class="wnav"><button class="btn ghost" onclick="wzDemo()">Explore demo first</button><button class="btn primary" onclick="wz.step=1;showWizard()">Next →</button></div>`;
   if(wz.step===1)body=`<h1>Payday setup 💵</h1><div class="wsub">This powers your safe-to-spend number + forecast.</div>
