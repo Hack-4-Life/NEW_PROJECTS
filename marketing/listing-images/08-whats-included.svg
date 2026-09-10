@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="2000" viewBox="0 0 2000 2000">
+  <defs>
+    <radialGradient id="g8" cx="12%" cy="-6%" r="78%">
+      <stop offset="0%" stop-color="#f5c451" stop-opacity="0.17"/><stop offset="60%" stop-color="#f5c451" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="h8" cx="104%" cy="8%" r="70%">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.13"/><stop offset="60%" stop-color="#7dd3fc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="c8" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#182231"/><stop offset="100%" stop-color="#0f1720"/>
+    </linearGradient>
+    <linearGradient id="f8" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.30"/><stop offset="100%" stop-color="#7dd3fc" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="2000" height="2000" fill="#080c11"/>
+  <rect width="2000" height="2000" fill="url(#g8)"/>
+  <rect width="2000" height="2000" fill="url(#h8)"/>
+  <g>
+    <rect x="110" y="92" width="76" height="76" rx="24" fill="#f5c451"/>
+    <circle cx="148" cy="130" r="19" fill="none" stroke="#1a1305" stroke-width="6"/>
+    <path d="M148 111 v-8 M148 149 v8 M129 130 h-8 M167 130 h8" stroke="#1a1305" stroke-width="6" stroke-linecap="round"/>
+    <text x="210" y="142" font-family="Inter" font-size="40" font-weight="800" fill="#e9f0f8">Waypoint</text>
+    <text x="446" y="142" font-family="Inter" font-size="40" font-weight="400" fill="#647689">· Budget Studio</text>
+  </g>
+  <text x="112" y="258" font-family="Inter" font-size="27" font-weight="700" fill="#f5c451" letter-spacing="4">EVERYTHING IN ONE BUDGET</text>
+  <text x="110" y="348" font-family="Inter" font-size="76" font-weight="800" fill="#e9f0f8">Eight screens,</text><text x="110" y="436" font-family="Inter" font-size="76" font-weight="800" fill="#e9f0f8">one dashboard.</text>
+  
+  <rect x="110" y="560" width="1780" height="1080" rx="36" fill="url(#c8)"/><rect x="110" y="560" width="1780" height="1080" rx="36" fill="none" stroke="rgba(245,196,81,0.22)" stroke-width="3" opacity="0.5"/>
+  
+  <text x="190" y="655" font-family="Inter" font-size="30" font-weight="700" fill="#647689" letter-spacing="5">EIGHT SCREENS, ONE FILE</text>
+  <rect x="190" y="660" width="770" height="126" rx="24" fill="rgba(255,255,255,0.04)"/><path d="M226 734 l13 15 l24 -30" fill="none" stroke="#4ade80" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><text x="286" y="716" font-family="Inter" font-size="34" font-weight="700" fill="#e9f0f8">Today</text><text x="286" y="756" font-family="Inter" font-size="25" font-weight="500" fill="#647689">Safe-to-spend, alerts, the math shown on demand</text><rect x="1000" y="660" width="770" height="126" rx="24" fill="rgba(255,255,255,0.04)"/><path d="M1036 734 l13 15 l24 -30" fill="none" stroke="#4ade80" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><text x="1096" y="716" font-family="Inter" font-size="34" font-weight="700" fill="#e9f0f8">Spend</text><text x="1096" y="756" font-family="Inter" font-size="25" font-weight="500" fill="#647689">Envelopes, daily pace, merchant history, search, CSV</text><rect x="190" y="810" width="770" height="126" rx="24" fill="rgba(255,255,255,0.04)"/><path d="M226 884 l13 15 l24 -30" fill="none" stroke="#4ade80" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><text x="286" y="866" font-family="Inter" font-size="34" font-weight="700" fill="#e9f0f8">Bills</text><text x="286" y="906" font-family="Inter" font-size="25" font-weight="500" fill="#647689">Any schedule, one-tap pay, calendar, duplicates</text><rect x="1000" y="810" width="770" height="126" rx="24" fill="rgba(255,255,255,0.04)"/><path d="M1036 884 l13 15 l24 -30" fill="none" stroke="#4ade80" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><text x="1096" y="866" font-family="Inter" font-size="34" font-weight="700" fill="#e9f0f8">Debts</text><text x="1096" y="906" font-family="Inter" font-size="25" font-weight="500" fill="#647689">Snowball vs avalanche, payoff dates, interest saved</text><rect x="190" y="960" width="770" height="126" rx="24" fill="rgba(255,255,255,0.04)"/><path d="M226 1034 l13 15 l24 -30" fill="none" stroke="#4ade80" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><text x="286" y="1016" font-family="Inter" font-size="34" font-weight="700" fill="#e9f0f8">Goals</text><text x="286" y="1056" font-family="Inter" font-size="25" font-weight="500" fill="#647689">Progress, finish dates, funding check</text><rect x="1000" y="960" width="770" height="126" rx="24" fill="rgba(255,255,255,0.04)"/><path d="M1036 1034 l13 15 l24 -30" fill="none" stroke="#4ade80" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><text x="1096" y="1016" font-family="Inter" font-size="34" font-weight="700" fill="#e9f0f8">Calendar</text><text x="1096" y="1056" font-family="Inter" font-size="25" font-weight="500" fill="#647689">Bills, income and spending on one month</text><rect x="190" y="1110" width="770" height="126" rx="24" fill="rgba(255,255,255,0.04)"/><path d="M226 1184 l13 15 l24 -30" fill="none" stroke="#4ade80" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><text x="286" y="1166" font-family="Inter" font-size="34" font-weight="700" fill="#e9f0f8">Reports</text><text x="286" y="1206" font-family="Inter" font-size="25" font-weight="500" fill="#647689">Income vs spending, net worth, money score</text><rect x="1000" y="1110" width="770" height="126" rx="24" fill="rgba(255,255,255,0.04)"/><path d="M1036 1184 l13 15 l24 -30" fill="none" stroke="#4ade80" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><text x="1096" y="1166" font-family="Inter" font-size="34" font-weight="700" fill="#e9f0f8">Settings</text><text x="1096" y="1206" font-family="Inter" font-size="25" font-weight="500" fill="#647689">Any currency, pay cycle, buffer, themes, privacy</text>
+  <rect x="190" y="1290" width="1620" height="330" rx="30" fill="rgba(245,196,81,0.07)" stroke="rgba(245,196,81,0.34)" stroke-width="2"/>
+  <text x="230" y="1358" font-family="Inter" font-size="28" font-weight="700" fill="#f5c451" letter-spacing="4">WHAT ARRIVES INSTANTLY</text>
+  <text x="230" y="1416" font-family="Inter" font-size="27" font-weight="500" fill="#93a6ba">Waypoint-Budget-Studio.html · Getting-Started-Guide.html · READ-ME-FIRST.txt · LICENSE.txt</text>
+  <text x="230" y="1478" font-family="Inter" font-size="27" font-weight="500" fill="#93a6ba">A guided welcome, a built-in tour and an illustrated guide — nothing to configure before it works.</text>
+  <text x="230" y="1544" font-family="Inter" font-size="29" font-weight="600" fill="#e9f0f8">Mac · Windows · Linux · iPad · Android tablet — anything with a browser, online or off.</text>
+  <path d="M190 1790 l13 15 l24 -30" fill="none" stroke="#4ade80" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><text x="242" y="1788" font-family="Inter" font-size="30" font-weight="500" fill="#93a6ba">Manual included, plus free updates for life</text><path d="M190 1854 l13 15 l24 -30" fill="none" stroke="#4ade80" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><text x="242" y="1852" font-family="Inter" font-size="30" font-weight="500" fill="#93a6ba">Works on desktop, tablet and phone</text>
+</svg>

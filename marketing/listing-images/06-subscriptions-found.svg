@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="2000" viewBox="0 0 2000 2000">
+  <defs>
+    <radialGradient id="g6" cx="12%" cy="-6%" r="78%">
+      <stop offset="0%" stop-color="#f5c451" stop-opacity="0.17"/><stop offset="60%" stop-color="#f5c451" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="h6" cx="104%" cy="8%" r="70%">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.13"/><stop offset="60%" stop-color="#7dd3fc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="c6" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#182231"/><stop offset="100%" stop-color="#0f1720"/>
+    </linearGradient>
+    <linearGradient id="f6" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.30"/><stop offset="100%" stop-color="#7dd3fc" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="2000" height="2000" fill="#080c11"/>
+  <rect width="2000" height="2000" fill="url(#g6)"/>
+  <rect width="2000" height="2000" fill="url(#h6)"/>
+  <g>
+    <rect x="110" y="92" width="76" height="76" rx="24" fill="#f5c451"/>
+    <circle cx="148" cy="130" r="19" fill="none" stroke="#1a1305" stroke-width="6"/>
+    <path d="M148 111 v-8 M148 149 v8 M129 130 h-8 M167 130 h8" stroke="#1a1305" stroke-width="6" stroke-linecap="round"/>
+    <text x="210" y="142" font-family="Inter" font-size="40" font-weight="800" fill="#e9f0f8">Waypoint</text>
+    <text x="446" y="142" font-family="Inter" font-size="40" font-weight="400" fill="#647689">· Budget Studio</text>
+  </g>
+  <text x="112" y="258" font-family="Inter" font-size="27" font-weight="700" fill="#f5c451" letter-spacing="4">THE MONEY YOU FORGOT ABOUT</text>
+  <text x="110" y="348" font-family="Inter" font-size="76" font-weight="800" fill="#e9f0f8">It finds your</text><text x="110" y="436" font-family="Inter" font-size="76" font-weight="800" fill="#e9f0f8">subscriptions for you.</text>
+  
+  <rect x="110" y="560" width="1780" height="1080" rx="36" fill="url(#c6)"/><rect x="110" y="560" width="1780" height="1080" rx="36" fill="none" stroke="rgba(245,196,81,0.22)" stroke-width="3" opacity="0.5"/>
+  
+  <text x="190" y="655" font-family="Inter" font-size="28" font-weight="700" fill="#647689" letter-spacing="3">RECURRING CHARGES FOUND ON YOUR OWN HISTORY</text>
+  <text x="190" y="705" font-family="Inter" font-size="32" font-weight="600" fill="#93a6ba">$816 a year currently leaving the account</text>
+  <rect x="190" y="730" width="1620" height="150" rx="26" fill="rgba(255,255,255,0.04)"/><rect x="232" y="774" width="62" height="62" rx="18.599999999999998" fill="#f5c451" opacity="0.18"/><circle cx="263" cy="805" r="12.4" fill="#f5c451"/><text x="318" y="796" font-family="Inter" font-size="38" font-weight="700" fill="#e9f0f8">Netflix</text><text x="318" y="840" font-family="Inter" font-size="26" font-weight="500" fill="#647689">found in your history · charged monthly · last Aug 13</text><text x="1300" y="796" font-family="Inter" font-size="36" font-weight="700" fill="#e9f0f8" text-anchor="end">$22.99 / mo</text><text x="1300" y="840" font-family="Inter" font-size="27" font-weight="600" fill="#fbbf24" text-anchor="end">$276 a year</text><rect x="1480" y="781" width="270" height="56" rx="28" fill="rgba(245,196,81,0.16)" stroke="rgba(245,196,81,0.4)" stroke-width="2"/><text x="1615" y="820" font-family="Inter" font-size="27" font-weight="700" fill="#f5c451" text-anchor="middle">Track it</text><rect x="190" y="908" width="1620" height="150" rx="26" fill="rgba(255,255,255,0.04)"/><rect x="232" y="952" width="62" height="62" rx="18.599999999999998" fill="#f5c451" opacity="0.18"/><circle cx="263" cy="983" r="12.4" fill="#f5c451"/><text x="318" y="974" font-family="Inter" font-size="38" font-weight="700" fill="#e9f0f8">Adobe Creative Cloud</text><text x="318" y="1018" font-family="Inter" font-size="26" font-weight="500" fill="#647689">found in your history · charged monthly · last Aug 22</text><text x="1300" y="974" font-family="Inter" font-size="36" font-weight="700" fill="#e9f0f8" text-anchor="end">$22.99 / mo</text><text x="1300" y="1018" font-family="Inter" font-size="27" font-weight="600" fill="#fbbf24" text-anchor="end">$276 a year</text><rect x="1480" y="959" width="270" height="56" rx="28" fill="rgba(245,196,81,0.16)" stroke="rgba(245,196,81,0.4)" stroke-width="2"/><text x="1615" y="998" font-family="Inter" font-size="27" font-weight="700" fill="#f5c451" text-anchor="middle">Track it</text><rect x="190" y="1086" width="1620" height="150" rx="26" fill="rgba(255,255,255,0.04)"/><rect x="232" y="1130" width="62" height="62" rx="18.599999999999998" fill="#f5c451" opacity="0.18"/><circle cx="263" cy="1161" r="12.4" fill="#f5c451"/><text x="318" y="1152" font-family="Inter" font-size="38" font-weight="700" fill="#e9f0f8">Spotify Premium</text><text x="318" y="1196" font-family="Inter" font-size="26" font-weight="500" fill="#647689">found in your history · charged monthly · last Aug 17</text><text x="1300" y="1152" font-family="Inter" font-size="36" font-weight="700" fill="#e9f0f8" text-anchor="end">$11.99 / mo</text><text x="1300" y="1196" font-family="Inter" font-size="27" font-weight="600" fill="#fbbf24" text-anchor="end">$144 a year</text><rect x="1480" y="1137" width="270" height="56" rx="28" fill="rgba(245,196,81,0.16)" stroke="rgba(245,196,81,0.4)" stroke-width="2"/><text x="1615" y="1176" font-family="Inter" font-size="27" font-weight="700" fill="#f5c451" text-anchor="middle">Track it</text><rect x="190" y="1264" width="1620" height="150" rx="26" fill="rgba(255,255,255,0.04)"/><rect x="232" y="1308" width="62" height="62" rx="18.599999999999998" fill="#f5c451" opacity="0.18"/><circle cx="263" cy="1339" r="12.4" fill="#f5c451"/><text x="318" y="1330" font-family="Inter" font-size="38" font-weight="700" fill="#e9f0f8">iCloud Storage</text><text x="318" y="1374" font-family="Inter" font-size="26" font-weight="500" fill="#647689">found in your history · charged monthly · last Sep 8</text><text x="1300" y="1330" font-family="Inter" font-size="36" font-weight="700" fill="#e9f0f8" text-anchor="end">$9.99 / mo</text><text x="1300" y="1374" font-family="Inter" font-size="27" font-weight="600" fill="#fbbf24" text-anchor="end">$120 a year</text><rect x="1480" y="1315" width="270" height="56" rx="28" fill="rgba(245,196,81,0.16)" stroke="rgba(245,196,81,0.4)" stroke-width="2"/><text x="1615" y="1354" font-family="Inter" font-size="27" font-weight="700" fill="#f5c451" text-anchor="middle">Track it</text>
+  <rect x="190" y="1470" width="1620" height="150" rx="26" fill="rgba(245,196,81,0.07)" stroke="rgba(245,196,81,0.3)" stroke-width="2"/>
+  <text x="226" y="1530" font-family="Inter" font-size="26" font-weight="700" fill="#f5c451">Detected locally</text>
+  <text x="226" y="1578" font-family="Inter" font-size="29" font-weight="500" fill="#93a6ba">Same merchant, same amount, steady interval. One tap turns a pattern into a proper recurring bill.</text>
+  <path d="M190 1790 l13 15 l24 -30" fill="none" stroke="#4ade80" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><text x="242" y="1788" font-family="Inter" font-size="30" font-weight="500" fill="#93a6ba">Detected from your own spending history</text><path d="M190 1854 l13 15 l24 -30" fill="none" stroke="#4ade80" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><text x="242" y="1852" font-family="Inter" font-size="30" font-weight="500" fill="#93a6ba">Nothing is uploaded to work any of this out</text>
+</svg>

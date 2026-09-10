@@ -1,0 +1,13 @@
+# The product itself has zero dependencies — this is only for the dev tooling
+# used to generate the listing images and run the verification harness.
+node_modules/
+package-lock.json
+package.json
+
+# scratch
+_scratch/
+*.log
+.DS_Store
+
+# dist/ is intentionally committed: it holds the exact files that get uploaded
+# to Etsy, so a rebuild is always optional rather than a prerequisite.

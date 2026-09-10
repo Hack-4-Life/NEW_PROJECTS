@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="2000" viewBox="0 0 2000 2000">
+  <defs>
+    <radialGradient id="g9" cx="12%" cy="-6%" r="78%">
+      <stop offset="0%" stop-color="#f5c451" stop-opacity="0.17"/><stop offset="60%" stop-color="#f5c451" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="h9" cx="104%" cy="8%" r="70%">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.13"/><stop offset="60%" stop-color="#7dd3fc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="c9" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#182231"/><stop offset="100%" stop-color="#0f1720"/>
+    </linearGradient>
+    <linearGradient id="f9" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.30"/><stop offset="100%" stop-color="#7dd3fc" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="2000" height="2000" fill="#080c11"/>
+  <rect width="2000" height="2000" fill="url(#g9)"/>
+  <rect width="2000" height="2000" fill="url(#h9)"/>
+  <g>
+    <rect x="110" y="92" width="76" height="76" rx="24" fill="#f5c451"/>
+    <circle cx="148" cy="130" r="19" fill="none" stroke="#1a1305" stroke-width="6"/>
+    <path d="M148 111 v-8 M148 149 v8 M129 130 h-8 M167 130 h8" stroke="#1a1305" stroke-width="6" stroke-linecap="round"/>
+    <text x="210" y="142" font-family="Inter" font-size="40" font-weight="800" fill="#e9f0f8">Waypoint</text>
+    <text x="446" y="142" font-family="Inter" font-size="40" font-weight="400" fill="#647689">· Budget Studio</text>
+  </g>
+  <text x="112" y="258" font-family="Inter" font-size="27" font-weight="700" fill="#f5c451" letter-spacing="4">WHY PEOPLE SWITCH</text>
+  <text x="110" y="348" font-family="Inter" font-size="76" font-weight="800" fill="#e9f0f8">The old way, or the</text><text x="110" y="436" font-family="Inter" font-size="76" font-weight="800" fill="#e9f0f8">way it should be.</text>
+  
+  <rect x="110" y="560" width="1780" height="1080" rx="36" fill="url(#c9)"/>
+  <rect x="110" y="560" width="860" height="1080" rx="32" fill="rgba(255,255,255,0.028)"/><text x="162" y="660" font-family="Inter" font-size="42" font-weight="800" fill="#f87171">The spreadsheet way</text><circle cx="180" cy="760" r="20" fill="none" stroke="#f87171" stroke-width="5"/><line x1="168" y1="748" x2="192" y2="772" stroke="#f87171" stroke-width="5" stroke-linecap="round"/><text x="222" y="770" font-family="Inter" font-size="31" font-weight="500" fill="#93a6ba">Formulas that break when you add</text><text x="222" y="814" font-family="Inter" font-size="31" font-weight="500" fill="#93a6ba">a row</text><circle cx="180" cy="928" r="20" fill="none" stroke="#f87171" stroke-width="5"/><line x1="168" y1="916" x2="192" y2="940" stroke="#f87171" stroke-width="5" stroke-linecap="round"/><text x="222" y="938" font-family="Inter" font-size="31" font-weight="500" fill="#93a6ba">A new spreadsheet tab every month</text><circle cx="180" cy="1096" r="20" fill="none" stroke="#f87171" stroke-width="5"/><line x1="168" y1="1084" x2="192" y2="1108" stroke="#f87171" stroke-width="5" stroke-linecap="round"/><text x="222" y="1106" font-family="Inter" font-size="31" font-weight="500" fill="#93a6ba">A subscription to keep it working</text><circle cx="180" cy="1264" r="20" fill="none" stroke="#f87171" stroke-width="5"/><line x1="168" y1="1252" x2="192" y2="1276" stroke="#f87171" stroke-width="5" stroke-linecap="round"/><text x="222" y="1274" font-family="Inter" font-size="31" font-weight="500" fill="#93a6ba">Your numbers sitting in someone’s</text><text x="222" y="1318" font-family="Inter" font-size="31" font-weight="500" fill="#93a6ba">cloud</text><circle cx="180" cy="1432" r="20" fill="none" stroke="#f87171" stroke-width="5"/><line x1="168" y1="1420" x2="192" y2="1444" stroke="#f87171" stroke-width="5" stroke-linecap="round"/><text x="222" y="1442" font-family="Inter" font-size="31" font-weight="500" fill="#93a6ba">A blank grid and no idea where to</text><text x="222" y="1486" font-family="Inter" font-size="31" font-weight="500" fill="#93a6ba">start</text><rect x="1030" y="560" width="860" height="1080" rx="32" fill="rgba(74,222,128,0.05)" stroke="rgba(74,222,128,0.34)" stroke-width="3"/><text x="1082" y="660" font-family="Inter" font-size="42" font-weight="800" fill="#4ade80">Waypoint</text><path d="M1082 770 l13 15 l24 -30" fill="none" stroke="#4ade80" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><text x="1142" y="770" font-family="Inter" font-size="31" font-weight="500" fill="#e9f0f8">Opens already knowing your payday</text><path d="M1082 938 l13 15 l24 -30" fill="none" stroke="#4ade80" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><text x="1142" y="938" font-family="Inter" font-size="31" font-weight="500" fill="#e9f0f8">One dashboard, updated as you</text><text x="1142" y="982" font-family="Inter" font-size="31" font-weight="500" fill="#e9f0f8">type</text><path d="M1082 1106 l13 15 l24 -30" fill="none" stroke="#4ade80" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><text x="1142" y="1106" font-family="Inter" font-size="31" font-weight="500" fill="#e9f0f8">Buy once, use it for years</text><path d="M1082 1274 l13 15 l24 -30" fill="none" stroke="#4ade80" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><text x="1142" y="1274" font-family="Inter" font-size="31" font-weight="500" fill="#e9f0f8">Stays on your device, offline if</text><text x="1142" y="1318" font-family="Inter" font-size="31" font-weight="500" fill="#e9f0f8">you like</text><path d="M1082 1442 l13 15 l24 -30" fill="none" stroke="#4ade80" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><text x="1142" y="1442" font-family="Inter" font-size="31" font-weight="500" fill="#e9f0f8">Guided setup and an illustrated</text><text x="1142" y="1486" font-family="Inter" font-size="31" font-weight="500" fill="#e9f0f8">manual</text>
+  <path d="M190 1790 l13 15 l24 -30" fill="none" stroke="#4ade80" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><text x="242" y="1788" font-family="Inter" font-size="30" font-weight="500" fill="#93a6ba">Same price as a takeaway coffee and a sandwich</text><path d="M190 1854 l13 15 l24 -30" fill="none" stroke="#4ade80" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><text x="242" y="1852" font-family="Inter" font-size="30" font-weight="500" fill="#93a6ba">Free updates, no subscription, ever</text>
+</svg>

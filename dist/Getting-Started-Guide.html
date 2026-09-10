@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Waypoint Budget Studio — Getting Started Guide</title>
+<style>
+  :root{
+    --bg:#0a0e13; --surface:#121a23; --surface-2:#17212c; --line:#233040;
+    --text:#e9f0f8; --muted:#93a6ba; --dim:#6b7f94; --accent:#f5c451; --accent-2:#7dd3fc;
+    --good:#4ade80; --warn:#fbbf24; --danger:#f87171;
+    --font:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;background:var(--bg);color:var(--text);font-family:var(--font);font-size:16px;line-height:1.65;
+    background-image:radial-gradient(1100px 600px at 10% -8%,rgba(245,196,81,.10),transparent 60%);
+    background-attachment:fixed;
+  }
+  .wrap{max-width:820px;margin:0 auto;padding:56px 24px 90px}
+  .brand{display:flex;align-items:center;gap:13px;margin-bottom:34px}
+  .mark{width:40px;height:40px;border-radius:13px;display:grid;place-items:center;background:linear-gradient(150deg,#f5c451,#7dd3fc);color:#1a1305;font-weight:800;font-size:19px}
+  h1{font-size:34px;letter-spacing:-.03em;margin:0 0 6px;font-weight:750}
+  .sub{color:var(--muted);font-size:15px;margin-bottom:30px}
+  h2{font-size:20px;letter-spacing:-.02em;margin:44px 0 12px;padding-top:22px;border-top:1px solid var(--line)}
+  h2 .n{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:9px;background:rgba(245,196,81,.15);color:var(--accent);font-size:13px;margin-right:10px;vertical-align:2px}
+  h3{font-size:16px;margin:24px 0 8px}
+  p{margin:0 0 14px}
+  ul,ol{margin:0 0 16px;padding-left:22px}
+  li{margin:6px 0}
+  strong{color:#fff}
+  em{color:var(--accent-2);font-style:normal}
+  code{background:var(--surface-2);border:1px solid var(--line);border-radius:6px;padding:2px 6px;font-size:13.5px;font-family:ui-monospace,Menlo,Consolas,monospace}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin:18px 0}
+  .card.tip{border-left:3px solid var(--accent)}
+  .card.warn{border-left:3px solid var(--warn)}
+  .card.priv{border-left:3px solid var(--good)}
+  .card b.lbl{display:block;font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--dim);margin-bottom:6px}
+  table{width:100%;border-collapse:collapse;margin:14px 0 20px;font-size:14.5px}
+  th{text-align:left;font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--dim);padding:0 12px 8px 0}
+  td{padding:10px 12px 10px 0;border-top:1px solid var(--line);vertical-align:top}
+  td:first-child{white-space:nowrap;font-weight:600;color:var(--accent)}
+  .kbd{display:inline-block;background:var(--surface-2);border:1px solid var(--line);border-bottom-width:2px;border-radius:7px;padding:1px 7px;font-size:13px;font-family:ui-monospace,Menlo,monospace}
+  .foot{margin-top:54px;padding-top:22px;border-top:1px solid var(--line);color:var(--dim);font-size:13.5px}
+  a{color:var(--accent-2)}
+  .toc{display:grid;grid-template-columns:1fr 1fr;gap:8px 22px;font-size:14.5px;margin:0 0 8px}
+  .toc span{color:var(--muted)}
+  .toc b{color:var(--accent);font-weight:600}
+  @media (max-width:620px){ .toc{grid-template-columns:1fr} h1{font-size:27px} .wrap{padding:34px 18px 70px} }
+  @media print{ body{background:#fff;color:#111;background-image:none} .card{border-color:#ddd} h2{border-color:#ddd} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="brand">
+    <div class="mark">W</div>
+    <div>
+      <div style="font-weight:700">Waypoint <span style="color:var(--dim);font-weight:500">Budget Studio</span></div>
+      <div style="font-size:12.5px;color:var(--dim)">Getting-started guide · v1.0</div>
+    </div>
+  </div>
+
+  <h1>Your budget dashboard, in ten minutes.</h1>
+  <p class="sub">Everything below is optional except step one. The app is designed so that the useful number is on the first screen the moment you open it — and it gets sharper as you add your own bills and balances.</p>
+
+  <div class="card priv">
+    <b class="lbl">First, the important bit</b>
+    Nothing you type is uploaded anywhere. There is no account, no sync and no monthly fee. Your numbers live in your own browser, on your own device, and the dashboard works with the internet switched off. See <strong>Backing up</strong> at the end of this guide for the ten-second habit that keeps it that way forever.
+  </div>
+
+  <div class="toc">
+    <div><b>1.</b> <span>Open it</span></div>
+    <div><b>2.</b> <span>The one number: Safe to spend</span></div>
+    <div><b>3.</b> <span>Your payday and your window</span></div>
+    <div><b>4.</b> <span>Bills, subscriptions and the calendar</span></div>
+    <div><b>5.</b> <span>Envelopes that pace you</span></div>
+    <div><b>6.</b> <span>Logging spending in five seconds</span></div>
+    <div><b>7.</b> <span>The 45-day cash forecast</span></div>
+    <div><b>8.</b> <span>Debt payoff planner</span></div>
+    <div><b>9.</b> <span>Savings goals</span></div>
+    <div><b>10.</b> <span>Reports and your money score</span></div>
+    <div><b>11.</b> <span>Themes and privacy goggles</span></div>
+    <div><b>12.</b> <span>Backing up (please read)</span></div>
+  </div>
+
+  <h2><span class="n">1</span>Open it</h2>
+  <p>Keep <code>Waypoint-Budget-Studio.html</code> and this guide together in a folder you will remember — a folder called <em>Budget</em> on your desktop is perfect.</p>
+  <p>Double-click the HTML file. It opens in your normal browser. That is the whole installation. You can drag it to your bookmarks bar or your dock for one-click access.</p>
+  <p>On a phone or tablet: open the file from your Files app, or save it to your home screen from the browser menu — it behaves like an app and works offline.</p>
+
+  <h2><span class="n">2</span>The one number: Safe to spend</h2>
+  <p>The top-left card is the whole point of the app. It answers one question: <strong>how much can I spend right now, without touching money that is already spoken for?</strong></p>
+  <p>Press <strong>Show the math</strong> under the number and it lays out the arithmetic, line by line:</p>
+  <table>
+    <tr><td>Cash counted</td><td>The balances you marked as spendable (plus savings if you choose to include them).</td></tr>
+    <tr><td>− Bills due</td><td>Every bill and debt minimum that lands before your next payday, and only those.</td></tr>
+    <tr><td>− Goal deposits</td><td>The monthly amount you assigned to your savings goals, pro-rated to the same window.</td></tr>
+    <tr><td>− Safety buffer</td><td>Your own floor, so the number never sends you to exactly zero. $100 by default.</td></tr>
+    <tr><td>= Safe to spend</td><td>Divide it by the days remaining and you get a daily allowance.</td></tr>
+  </table>
+  <div class="card tip">
+    <b class="lbl">Make it stricter if you like</b>
+    In <code>Settings → Safe-to-spend rules</code> turn on <strong>Realistic mode</strong>. The app then also holds back everyday spending you have not logged yet, based on your own average — the number drops, and it stops lying to you in the last week before payday.
+  </div>
+
+  <h2><span class="n">3</span>Your payday and your window</h2>
+  <p>Everything is arranged around the next time money arrives. Set your cycle in <code>Settings → Pay schedule</code>: weekly, every two weeks, twice a month, or monthly.</p>
+  <p>For a sharper countdown, add your real income sources — salary, freelance, benefits, child support, anything scheduled. The app then uses the actual dates instead of a generic cycle, and the forecast reflects the amounts too.</p>
+
+  <h2><span class="n">4</span>Bills, subscriptions and the calendar</h2>
+  <p>Open <strong>Bills</strong> and add rent, utilities, insurance, daycare — anything that repeats. Each bill needs three things: how much, how often, and the next date it comes out. The app extrapolates the rest, forever, in both directions.</p>
+  <ul>
+    <li><strong>Tap a bill</strong> to edit it, pause it, or delete it. Pausing is perfect for a bill that skips a month.</li>
+    <li><strong>Pay</strong> marks the cycle paid <em>and</em> logs the outflow as a transaction, so your log and your dashboard agree.</li>
+    <li><strong>Skip this month</strong> removes a single cycle without deleting the bill.</li>
+    <li>Turn on <strong>On autopay</strong> for anything automatic — those bills get a green tag and are counted separately, which is handy when you check what is really coming out.</li>
+  </ul>
+  <p>Underneath the list, <strong>Next 60 days</strong> groups everything by week, and the mini calendar shows which days carry money. Anything that looks like it might be a double-up gets flagged automatically.</p>
+  <div class="card tip">
+    <b class="lbl">Already paying for subscriptions?</b>
+    The <strong>Spend</strong> screen scans your own history and finds recurring charges for you — same merchant, same amount, regular interval — with the yearly cost of each one. Tap <em>Track</em> and it becomes a proper bill.
+  </div>
+
+  <h2><span class="n">5</span>Envelopes that pace you</h2>
+  <p>Give each spending category a monthly cap — groceries $600, dining $220, fun $150. The app then tracks three things at once: what you have spent, how much is left, and whether today's pace will actually last to the end of the month.</p>
+  <ul>
+    <li><span style="color:var(--good)">On track</span> — you are inside the pace line.</li>
+    <li><span style="color:var(--warn)">Running hot</span> — the category will blow its cap at this rate.</li>
+    <li><span style="color:var(--danger)">Over by $X</span> — it already has. The dashboard tells you on the way in.</li>
+  </ul>
+  <p>Mark a category as <strong>rollover</strong> in <code>Settings → Envelope caps</code> and unspent money banks and carries forward, so a quiet month buys you a generous one.</p>
+
+  <h2><span class="n">6</span>Logging spending in five seconds</h2>
+  <p>The search-style bar at the top is a quick-add. Type naturally and press <span class="kbd">Enter</span>:</p>
+  <p><code>14.50 lunch #dining</code> &nbsp;·&nbsp; <code>62.30 Costco #groceries yesterday</code> &nbsp;·&nbsp; <code>2200 paycheck</code> &nbsp;·&nbsp; <code>9/3 coffee 4.80</code></p>
+  <ul>
+    <li>The first number is the amount. Everything else becomes the note.</li>
+    <li><code>#category</code> files it, <code>@account</code> says which card or account paid.</li>
+    <li><code>yesterday</code>, or a date like <code>9/3</code>, back-dates it.</li>
+    <li>Made a mistake? Every action has an <strong>Undo</strong>, and <span class="kbd">Ctrl</span>+<span class="kbd">Z</span> undoes the last thing you did.</li>
+  </ul>
+  <p>Press <span class="kbd">/</span> anywhere to jump to the quick-add bar, and <span class="kbd">Ctrl</span>+<span class="kbd">N</span> for the full form with category, account and date.</p>
+
+  <h2><span class="n">7</span>The 45-day cash forecast</h2>
+  <p>Whatever you have guessed about your bank balance, this screen is the honest version. It takes the money you have, applies every bill, debt payment and payday you have told it about, subtracts an average day of everyday spending, and draws the line forward.</p>
+  <p>Look for two things:</p>
+  <ul>
+    <li>The <strong>lowest point</strong> — if the line dips under your safety buffer, that is the week to move a payment or trim an envelope. The app will tell you the date.</li>
+    <li>The shape. If the line slopes down over 90 days, your committed costs are above your income, and no amount of careful shopping fixes that.</li>
+  </ul>
+  <p>Hover anywhere on the line and it shows the date, the projected balance and exactly which bills are behind that dip.</p>
+
+  <h2><span class="n">8</span>Debt payoff planner</h2>
+  <p>Add each debt with its balance, interest rate and minimum payment. Then slide the <strong>extra per month</strong> control and watch the payoff date move.</p>
+  <table>
+    <tr><td>Snowball</td><td>Smallest balance first. Quick wins, motivation, fewer accounts to think about.</td></tr>
+    <tr><td>Avalanche</td><td>Highest interest rate first. Mathematically the cheapest route.</td></tr>
+    <tr><td>My order</td><td>Hit the one that annoys you most, or the one with the deadline.</td></tr>
+  </table>
+  <p>The planner shows the exact debt-free date, the interest you will pay, the interest you avoid, and how many months sooner than paying minimums only. There is also a <strong>Snowball vs avalanche</strong> comparison for your actual numbers — sometimes the difference is small enough that the motivating order wins.</p>
+
+  <h2><span class="n">9</span>Savings goals</h2>
+  <p>Create a goal, price it, and give it a monthly deposit. You get a progress ring, a finish date, and a straight answer to "am I on track?" against the target date you set.</p>
+  <p>The <strong>Funding check</strong> panel does something most budget apps avoid: it compares the sum of your goal deposits with your actual monthly surplus and tells you if the plan is real. If they do not fit, it tells you how much to trim — or how far to push a date.</p>
+  <p>Use <strong>Add money</strong> whenever you actually move cash across, so the goal reflects reality rather than hope.</p>
+
+  <h2><span class="n">10</span>Reports and your money score</h2>
+  <p><strong>Reports</strong> gives you income vs spending by month, a net-worth line, category averages with sparklines, and your top merchants — the pattern you cannot see while you are inside a single month.</p>
+  <p>The <strong>Money score</strong> (top right of the dashboard) is a single 0–100 built from five things that actually predict calm:</p>
+  <table>
+    <tr><td>30%</td><td>Savings rate — how much of what came in you kept (target 20%).</td></tr>
+    <tr><td>20%</td><td>Envelope discipline — how many categories stayed inside their cap.</td></tr>
+    <tr><td>20%</td><td>Bill coverage — whether your cash covers what is due before payday.</td></tr>
+    <tr><td>20%</td><td>Emergency runway — months of expenses your savings would cover (target 6).</td></tr>
+    <tr><td>10%</td><td>Debt pressure — debt payments as a share of income (keep under 35%).</td></tr>
+  </table>
+  <p>Tap <strong>How?</strong> to see each component, its weight and what would move it.</p>
+  <p>Everything exports: transactions as CSV for Excel or Google Sheets, a monthly summary, and a full backup file.</p>
+
+  <h2><span class="n">11</span>Themes and privacy goggles</h2>
+  <p>Five themes — Midnight, Vault, Blush, Daylight and Paper — from the sun icon in the sidebar or <code>Settings → You</code>. Same data, different mood.</p>
+  <p>The <strong>eye icon</strong> turns privacy goggles on and blurs every amount. Useful on a train, in a coffee shop, or when someone is reading over your shoulder. Nothing is hidden from you permanently — hover or toggle it off.</p>
+
+  <h2><span class="n">12</span>Backing up (please read)</h2>
+  <div class="card warn">
+    <b class="lbl">The one habit worth having</b>
+    Your budget lives inside one browser, on one device. Clearing your browsing data, or switching computers, will leave it behind. A backup file takes ten seconds and removes the risk entirely.
+  </div>
+  <ol>
+    <li>Go to <strong>Settings → Your data → Download backup (.json)</strong>. Save it wherever you keep the dashboard folder — most people rename it with the month, like <code>budget-2026-09.json</code>.</li>
+    <li>On a new computer or browser: open the dashboard, then <strong>Restore from backup</strong> and pick that file. Every bill, goal, debt and transaction comes with it.</li>
+    <li>Once a month is plenty. Once a week if you have just set everything up.</li>
+  </ol>
+  <p>Moving browsers on the same computer? Take a backup, open the dashboard in the new browser, restore. Same folder, same file, new home.</p>
+
+  <div class="foot">
+    <p><strong>Waypoint Budget Studio v1.0</strong> — a single self-contained file with no dependencies, no accounts and no telemetry. Copy the folder to a USB stick, an external drive or a private cloud folder and it still works, exactly as it is.</p>
+    <p>Questions or something not working? Message me through Etsy — I answer quickly, and updates are free forever.</p>
+    <p style="margin-top:16px">Waypoint is a personal budgeting tool, not financial, tax or investment advice.</p>
+  </div>
+
+</div>
+</body>
+</html>

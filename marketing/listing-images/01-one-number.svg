@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="2000" viewBox="0 0 2000 2000">
+  <defs>
+    <radialGradient id="g1" cx="12%" cy="-6%" r="78%">
+      <stop offset="0%" stop-color="#f5c451" stop-opacity="0.17"/><stop offset="60%" stop-color="#f5c451" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="h1" cx="104%" cy="8%" r="70%">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.13"/><stop offset="60%" stop-color="#7dd3fc" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="c1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#182231"/><stop offset="100%" stop-color="#0f1720"/>
+    </linearGradient>
+    <linearGradient id="f1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7dd3fc" stop-opacity="0.30"/><stop offset="100%" stop-color="#7dd3fc" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="2000" height="2000" fill="#080c11"/>
+  <rect width="2000" height="2000" fill="url(#g1)"/>
+  <rect width="2000" height="2000" fill="url(#h1)"/>
+  <g>
+    <rect x="110" y="92" width="76" height="76" rx="24" fill="#f5c451"/>
+    <circle cx="148" cy="130" r="19" fill="none" stroke="#1a1305" stroke-width="6"/>
+    <path d="M148 111 v-8 M148 149 v8 M129 130 h-8 M167 130 h8" stroke="#1a1305" stroke-width="6" stroke-linecap="round"/>
+    <text x="210" y="142" font-family="Inter" font-size="40" font-weight="800" fill="#e9f0f8">Waypoint</text>
+    <text x="446" y="142" font-family="Inter" font-size="40" font-weight="400" fill="#647689">· Budget Studio</text>
+  </g>
+  <text x="112" y="258" font-family="Inter" font-size="27" font-weight="700" fill="#f5c451" letter-spacing="4">INTERACTIVE BUDGET DASHBOARD</text>
+  <text x="110" y="348" font-family="Inter" font-size="76" font-weight="800" fill="#e9f0f8">One number tells you</text><text x="110" y="436" font-family="Inter" font-size="76" font-weight="800" fill="#e9f0f8">what you can spend.</text>
+  <text x="112" y="550" font-family="Inter" font-size="33" font-weight="400" fill="#93a6ba">Safe-to-spend, built from your own bills, paydays and goals — not a guess.</text>
+  <rect x="110" y="560" width="1780" height="1080" rx="36" fill="url(#c1)"/><rect x="110" y="560" width="1780" height="1080" rx="36" fill="none" stroke="rgba(245,196,81,0.28)" stroke-width="3" opacity="0.5"/>
+  
+  <text x="190" y="655" font-family="Inter" font-size="30" font-weight="700" fill="#647689" letter-spacing="5">SAFE TO SPEND</text>
+  <text x="186" y="800" font-family="Inter" font-size="152" font-weight="800" fill="#f5c451">$714.36</text>
+  <text x="190" y="872" font-family="Inter" font-size="32" font-weight="400" fill="#93a6ba">With every bill already taken out · next payday Sep 22, 2026</text>
+  <text x="190" y="950" font-family="Inter" font-size="28" font-weight="700" fill="#647689" letter-spacing="3">How the number is built</text>
+  <text x="190" y="1010" font-family="Inter" font-size="31" font-weight="500" fill="#93a6ba">Cash you can spend</text><text x="950" y="1010" font-family="Inter" font-size="31" font-weight="600" fill="#e9f0f8" text-anchor="end">$1,842.65</text><text x="190" y="1068" font-family="Inter" font-size="31" font-weight="500" fill="#93a6ba">Bills due before payday (3)</text><text x="950" y="1068" font-family="Inter" font-size="31" font-weight="600" fill="#e9f0f8" text-anchor="end">− $255.00</text><text x="190" y="1126" font-family="Inter" font-size="31" font-weight="500" fill="#93a6ba">Debt minimums in the same window</text><text x="950" y="1126" font-family="Inter" font-size="31" font-weight="600" fill="#e9f0f8" text-anchor="end">− $410.00</text><text x="190" y="1184" font-family="Inter" font-size="31" font-weight="500" fill="#93a6ba">Goal deposits for this window</text><text x="950" y="1184" font-family="Inter" font-size="31" font-weight="600" fill="#e9f0f8" text-anchor="end">− $363.29</text><text x="190" y="1242" font-family="Inter" font-size="31" font-weight="500" fill="#93a6ba">Your safety buffer</text><text x="950" y="1242" font-family="Inter" font-size="31" font-weight="600" fill="#e9f0f8" text-anchor="end">− $100.00</text>
+  <line x1="190" y1="1325" x2="950" y2="1325" stroke="undefined" stroke-width="2"/>
+  <text x="190" y="1388" font-family="Inter" font-size="36" font-weight="700" fill="#e9f0f8">Safe to spend</text>
+  <text x="950" y="1388" font-family="Inter" font-size="36" font-weight="800" fill="#f5c451" text-anchor="end">$714.36</text>
+  <rect x="190" y="1430" width="760" height="150" rx="24" fill="rgba(74,222,128,0.07)" stroke="rgba(74,222,128,0.3)" stroke-width="2"/>
+  <path d="M222 1500 l13 15 l24 -30" fill="none" stroke="#4ade80" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="276" y="1508" font-family="Inter" font-size="33" font-weight="600" fill="#e9f0f8">$60 a day for the next 12 days</text>
+  <circle cx="1512" cy="1112" r="209" fill="none" stroke="rgba(255,255,255,0.09)" stroke-width="46"/>
+  <path d="M1676.0 1276.0 A232 232 0 0 1 1311.7 1229.1 L1351.5 1205.9 A186 186 0 0 0 1643.5 1243.5 Z" fill="#f5c451"/>
+  <line x1="1693.0" y1="1293.0" x2="1708.6" y2="1308.6" stroke="rgba(255,255,255,0.18)" stroke-width="4" stroke-linecap="round"/><line x1="1654.2" y1="1324.9" x2="1659.8" y2="1333.2" stroke="rgba(255,255,255,0.18)" stroke-width="3" stroke-linecap="round"/><line x1="1610.0" y1="1348.5" x2="1613.8" y2="1357.8" stroke="rgba(255,255,255,0.18)" stroke-width="3" stroke-linecap="round"/><line x1="1561.9" y1="1363.1" x2="1563.9" y2="1372.9" stroke="rgba(255,255,255,0.18)" stroke-width="3" stroke-linecap="round"/><line x1="1512.0" y1="1368.0" x2="1512.0" y2="1378.0" stroke="rgba(255,255,255,0.18)" stroke-width="3" stroke-linecap="round"/><line x1="1462.1" y1="1363.1" x2="1460.1" y2="1372.9" stroke="rgba(255,255,255,0.18)" stroke-width="3" stroke-linecap="round"/><line x1="1414.0" y1="1348.5" x2="1405.6" y2="1368.8" stroke="rgba(255,255,255,0.18)" stroke-width="4" stroke-linecap="round"/><line x1="1369.8" y1="1324.9" x2="1364.2" y2="1333.2" stroke="rgba(255,255,255,0.18)" stroke-width="3" stroke-linecap="round"/><line x1="1331.0" y1="1293.0" x2="1323.9" y2="1300.1" stroke="rgba(255,255,255,0.18)" stroke-width="3" stroke-linecap="round"/><line x1="1299.1" y1="1254.2" x2="1290.8" y2="1259.8" stroke="rgba(255,255,255,0.18)" stroke-width="3" stroke-linecap="round"/><line x1="1275.5" y1="1210.0" x2="1266.2" y2="1213.8" stroke="rgba(255,255,255,0.18)" stroke-width="3" stroke-linecap="round"/><line x1="1260.9" y1="1161.9" x2="1251.1" y2="1163.9" stroke="rgba(255,255,255,0.18)" stroke-width="3" stroke-linecap="round"/><line x1="1256.0" y1="1112.0" x2="1234.0" y2="1112.0" stroke="rgba(255,255,255,0.18)" stroke-width="4" stroke-linecap="round"/><line x1="1260.9" y1="1062.1" x2="1251.1" y2="1060.1" stroke="rgba(255,255,255,0.18)" stroke-width="3" stroke-linecap="round"/><line x1="1275.5" y1="1014.0" x2="1266.2" y2="1010.2" stroke="rgba(255,255,255,0.18)" stroke-width="3" stroke-linecap="round"/><line x1="1299.1" y1="969.8" x2="1290.8" y2="964.2" stroke="rgba(255,255,255,0.18)" stroke-width="3" stroke-linecap="round"/><line x1="1331.0" y1="931.0" x2="1323.9" y2="923.9" stroke="rgba(255,255,255,0.18)" stroke-width="3" stroke-linecap="round"/><line x1="1369.8" y1="899.1" x2="1364.2" y2="890.8" stroke="rgba(255,255,255,0.18)" stroke-width="3" stroke-linecap="round"/><line x1="1414.0" y1="875.5" x2="1405.6" y2="855.2" stroke="rgba(255,255,255,0.18)" stroke-width="4" stroke-linecap="round"/><line x1="1462.1" y1="860.9" x2="1460.1" y2="851.1" stroke="rgba(255,255,255,0.18)" stroke-width="3" stroke-linecap="round"/><line x1="1512.0" y1="856.0" x2="1512.0" y2="846.0" stroke="rgba(255,255,255,0.18)" stroke-width="3" stroke-linecap="round"/><line x1="1561.9" y1="860.9" x2="1563.9" y2="851.1" stroke="rgba(255,255,255,0.18)" stroke-width="3" stroke-linecap="round"/><line x1="1610.0" y1="875.5" x2="1613.8" y2="866.2" stroke="rgba(255,255,255,0.18)" stroke-width="3" stroke-linecap="round"/><line x1="1654.2" y1="899.1" x2="1659.8" y2="890.8" stroke="rgba(255,255,255,0.18)" stroke-width="3" stroke-linecap="round"/><line x1="1693.0" y1="931.0" x2="1708.6" y2="915.4" stroke="rgba(255,255,255,0.18)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="1512" cy="1112" r="144" fill="rgba(255,255,255,0.035)"/>
+  <text x="1512" y="1090" font-family="Inter" font-size="74" font-weight="800" fill="#e9f0f8" text-anchor="middle">$60</text>
+  <text x="1512" y="1142" font-family="Inter" font-size="32" font-weight="500" fill="#93a6ba" text-anchor="middle">per day</text>
+  <text x="1512" y="1198" font-family="Inter" font-size="27" font-weight="600" fill="#647689" text-anchor="middle">12 days to payday</text>
+  <path d="M190 1790 l13 15 l24 -30" fill="none" stroke="#4ade80" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><text x="242" y="1788" font-family="Inter" font-size="30" font-weight="500" fill="#93a6ba">No formulas to write</text><path d="M190 1854 l13 15 l24 -30" fill="none" stroke="#4ade80" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><text x="242" y="1852" font-family="Inter" font-size="30" font-weight="500" fill="#93a6ba">No account and no monthly fee</text><path d="M190 1918 l13 15 l24 -30" fill="none" stroke="#4ade80" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/><text x="242" y="1916" font-family="Inter" font-size="30" font-weight="500" fill="#93a6ba">Works with the internet switched off</text>
+</svg>
