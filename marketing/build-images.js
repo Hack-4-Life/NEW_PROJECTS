@@ -330,7 +330,7 @@ const d = data;
     [1280, 'Everything scheduled', money0(d.forecast.committed), C.cyan, 'bills and debt payments']
   ].map((c) => rect(c[0], 1240, 520, 190, { rx: 26, fill: 'rgba(255,255,255,0.035)', stroke: C.line }) +
     txt(c[0] + 34, 1300, c[1], { size: 26, weight: 600, fill: C.dim }) +
-    txt(c[0] + 34, 1372, c[3], { size: 48, weight: 800, fill: c[2] }) +
+    txt(c[0] + 34, 1372, c[2], { size: 48, weight: 800, fill: c[3] }) +
     txt(c[0] + 34, 1412, c[4], { size: 25, weight: 500, fill: C.dim })).join('');
 
   const body = `
